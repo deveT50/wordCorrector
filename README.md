@@ -1,7 +1,7 @@
 # wordCorrector  
 単語自動校正器  
 jubatus/python  
-＊2人チームで作成。筆者は前処理（news2wakati.py）のみ担当。
+＊2人チームで作成。筆者は分かち書き（news2wakati.py）のみ担当。
 
 jubatusハッカソン( <http://blog.jubat.us/2016/11/3jubatusjubatus-with-2.html> )にて作成したもの  
 入力文章に含まれる単語を単語数だけのクラスに分類し、誤記のある単語が正しい単語と同じクラスに分類されるようにする  
