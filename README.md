@@ -7,6 +7,12 @@ jubatusハッカソン( <http://blog.jubat.us/2016/11/3jubatusjubatus-with-2.htm
 新聞記事のテキストデータをjubatusで学習し、作成した文章の誤記を修正するシステムを意図している  
 ＊2人チームで作成。筆者はnews2wakati.pyのみ担当。
 
+
+
+分類結果：入力単語
+
+![実行結果](https://github.com/deveT50/images/blob/master/wordCorrector/correct2.png "実行結果")
+
 ###前処理  
 1. get_data.sh　・・・・・・・・・・・”□”、”◇”等の不要な文字を削除  
 2. news2wakati.py　・・・・・・・・・入力txtファイルを単語に分かち書きし、1単語1行のtxtファイルを出力  
