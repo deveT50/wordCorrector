@@ -1,5 +1,6 @@
 # wordCorrector  
-jubatus/python:単語自動校正器  
+単語自動校正器  
+jubatus/python  
 
 jubatusハッカソン( <https://jubatus.connpass.com/event/41692/> )にて作成したもの  
 入力文章に含まれる単語を単語数だけのクラスに分類し、誤記のある単語が正しい単語と同じクラスに分類されるようにする  
