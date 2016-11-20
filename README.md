@@ -17,8 +17,4 @@ jubatusハッカソン( <http://blog.jubat.us/2016/11/3jubatusjubatus-with-2.htm
 1. config.json　・・・・jubatusサーバのセットアップファイル  
 2. cubreporter.py　・・jubatusクライアントで実行する学習・予測のコード  
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 615aa9140250576008b114d5c183d19db49c323b
 
