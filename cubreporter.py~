@@ -31,7 +31,6 @@ def train(client, fname):
     fd.close()
 
     # prepare training data
-    #入力データは1行に1単語（2単語の結合語）の形で分かち書きされている
     train_data = []
     for i in range(10000):
         #add string("key", "value")
@@ -42,10 +41,9 @@ def train(client, fname):
     # training data must be shuffled on online learning!
     random.shuffle(train_data)
 
-    #学習実行
+    # run train
     client.train(train_data)
 
-#分類結果を"出力：入力"の形で返す
 def predict(client):
     data = [
         Datum({'message': 'ほんま'}),
@@ -65,8 +63,8 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Error: python {0} <fname>".format(sys.argv[0]))
         exit()
-    #jubatus(host)に接続
+    # connect to the jubatus
     client = jubatus.Classifier(host, port, name)
-    #実行
+    # run example
     train(client, sys.argv[1])
     predict(client)
