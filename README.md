@@ -1,7 +1,7 @@
 # wordCorrector  
 単語自動校正器  
 
-jubatusハッカソン<(https://jubatus.connpass.com/event/41692/)>にて作成したもの  
+jubatusハッカソン( <https://jubatus.connpass.com/event/41692/> )にて作成したもの  
 入力文章に含まれる単語を単語数だけのクラスに分類し、誤記のある単語が正しい単語と同じクラスに分類されるようにする  
 新聞記事のテキストデータをjubatusで学習し、作成した文章の誤記を修正するシステムを意図している  
 ＊チーム参加であり、筆者はnews2wakati.pyのみ担当した
