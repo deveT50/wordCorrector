@@ -13,6 +13,11 @@ jubatusハッカソン( <http://blog.jubat.us/2016/11/3jubatusjubatus-with-2.htm
 
 ![実行結果](https://github.com/deveT50/images/blob/master/wordCorrector/correct2.png "実行結果")
 
+![学習](https://github.com/deveT50/images/blob/master/wordCorrector/flow1.png "学習")
+![使用](https://github.com/deveT50/images/blob/master/wordCorrector/flow2.png "使用")
+
+
+
 ###前処理  
 1. get_data.sh　・・・・・・・・・・・”□”、”◇”等の不要な文字を削除  
 2. news2wakati.py　・・・・・・・・・入力txtファイルを単語に分かち書きし、1単語1行のtxtファイルを出力  
